@@ -1,7 +1,7 @@
 # musicLiri
 A music-based LIRI
 
-Demo: [MP3 Download](https://github.com/calvinshin/musicLiri/blob/master/other%20files/Demo.mp4)
+Demo: [MP4 Download](https://github.com/calvinshin/musicLiri/blob/master/other%20files/Demo.mp4)
 
 ## Purpose ##
 The purpose of this node application is to allow the user to to search various entertainment terms and receive results back. The application makes a call to three different APIs: 
