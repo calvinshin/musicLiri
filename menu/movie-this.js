@@ -8,8 +8,14 @@ var searchAgain = require("./searchAgain")
 
 // Uses Axios and the IMDB API to return details from an input.
 function movieThis(input) {
-    console.log("Searching " + input + " on IMDB...");
-    axios.get("https://www.omdbapi.com/?t=" + input + "&apikey=trilogy")
+    if(input.length < 1) {
+        console.log("Nothing was searched...");
+        console.log("Here! Let me try searching something!");
+        movieThis("Mulan");
+    }
+    else{
+        console.log("Searching " + input + " on IMDB...");
+        axios.get("https://www.omdbapi.com/?t=" + input + "&apikey=trilogy")
         .then(function(response) {
             data = response.data
             var result = {
@@ -25,6 +31,7 @@ function movieThis(input) {
             // Asks the user if they want to continue searching
             searchAgain();
         })
+    }
 }
 
 
