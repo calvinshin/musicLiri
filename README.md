@@ -30,6 +30,6 @@ The start of the app is through running the liri.js file. The file does several 
 ![Menu](/other%20files/MenuCode.png)
 The app then asks the user to input terms using Inquirer. This allows the user to not have prior experience with the application in order to use it.
 
-![Menu](/other%20files/Men.png)
+![Menu](/other%20files/Menu.png)
 After completing the prompts, the code will execute the related function, provide the details, and then call the searchAgain function. The searchAgain function calls the menu function again, enabling the user to continue using the program in a seamless experience.
 
