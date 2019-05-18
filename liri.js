@@ -1,13 +1,11 @@
-// All the required packages for the tool
-var axios = require("axios");
-var Spotify = require("node-spotify-api");
-var moment = require("moment");
-moment().format();
+console.log("Loading...");
+
+// Configuration required is being done on the main page.
 var dotenv = require("dotenv")
 dotenv.config()
-
-// All the required files for the liri file
 var keys = require("./keys")
 
-console.log(keys);
-console.log("All the things above worked!")
+// All the required files for the liri file to function
+var menu = require("./menu/menu")
+
+menu.menuPrompt();
