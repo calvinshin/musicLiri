@@ -20,7 +20,7 @@ The following node packages need to be installed for this application to work. M
 
 ## Walkthrough of app
 ### Start ###
-![Start Code](/other&20files/Liri.png)
+![Start Code](/other%20files/Liri.png)
 The start of the app is through running the liri.js file. The file does several things:
 * The file uses dotenv to hide the keys used for the application. 
 * The menu file is required and then launched
